@@ -30,6 +30,30 @@ npm install passport passport-local express-session connect-flash  --save-dev
 
 // sourcetree git 프로그램
 
+// git 사용법
+// 신규 생성 , 기존 프로젝트 생성
+git init , git clone
+
+// git hub 프로젝트 생성후
+// {정보} 는 git hub 에 있음
+// 프로젝트 서버 연결
+git remote {정보} 
+
+// 프로젝트 연결되었는지 확인
+git remote -v
+
+// 파일 추가
+git add {파일명}
+git add --all // 모든 파일 추가
+
+// 파일 커밋
+git commit -m "{입력할 메세지}"
+
+// 서버에 올리기
+git push {저장소명} {브랜치명}
+git push origin master
+
+// .gitignore 파일에 저장되어있는 내용은 커밋되지 않음
 
 
 
